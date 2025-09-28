@@ -1,0 +1,18 @@
+{
+  "name": "name/project",
+  "description": "MVC Application",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Cfg\\": "Cfg/",
+      "App\\Models\\": "Models/",
+      "App\\Controllers\\": "Controllers/",
+      "App\\Templates\\": "Templates/",
+      "App\\Entities\\Users\\": "Entities/Users",
+      "App\\Entities\\Reviews\\": "Entities/Reviews"
+    }
+  },
+  "require": {
+    "phroute/phroute": "^2.2"
+  }
+}
